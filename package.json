@@ -74,7 +74,10 @@
     "webpack": "^5.112.2",
     "webpack-cli": "^7.3.1",
     "webpack-obfuscator": "^3.6.1",
+<<<<<<< HEAD
     "ws": "^8.23.0",
+=======
+>>>>>>> f8b20765c5ce38a1e065c2a84b9882d8fac75f97
     "yaml-loader": "^0.9.0"
   },
   "dependencies": {
