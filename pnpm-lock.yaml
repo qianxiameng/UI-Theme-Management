@@ -236,7 +236,11 @@ importers:
         version: 9.6.2(loader-utils@1.4.2)(typescript@6.0.3)(webpack@5.113.0)
       ts-node:
         specifier: ^10.9.2
+<<<<<<< HEAD
         version: 10.9.2(@types/node@26.6.8)(typescript@6.0.3)
+=======
+        version: 10.9.2(@types/node@26.6.9)(typescript@6.0.3)
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       tsconfig-paths-webpack-plugin:
         specifier: ^4.2.0
         version: 4.2.0
@@ -276,9 +280,12 @@ importers:
       webpack-obfuscator:
         specifier: ^3.6.1
         version: 3.6.1(javascript-obfuscator@5.10.1)(webpack@5.113.0)
+<<<<<<< HEAD
       ws:
         specifier: ^8.23.0
         version: 8.23.0
+=======
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       yaml-loader:
         specifier: ^0.9.0
         version: 0.9.0
@@ -727,8 +734,13 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
+<<<<<<< HEAD
   '@types/node@26.6.8':
     resolution: {integrity: sha512-Xo5PW7XYoTRn8nhGBo73qpqBMFvkCIX0g0m6jtWpPo7C7oeEaMdjBJtNBNZDISRpx9/LvvIqvf9tUB3I+mDTSQ==}
+=======
+  '@types/node@26.6.9':
+    resolution: {integrity: sha512-MkLVXFazHKL5/3lkiYqaSti6Ohv0Vi6z2bPwUQAs/aXUuuY8go4hR3mz8Kvu0lBC2HH0Zn+ON2G9hTglqDD48A==}
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
 
   '@types/q@1.5.8':
     resolution: {integrity: sha512-hroOstUScF6zhIi+5+x0dzqrHA1EJi+Irri6b1fxolMTqqHIV/Cg77EtnQcZqZCu8hR3mX2BzIxN4/GzI68Kfw==}
@@ -4628,7 +4640,11 @@ snapshots:
 
   '@types/cors@2.8.19':
     dependencies:
+<<<<<<< HEAD
       '@types/node': 26.6.8
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
 
   '@types/debug@4.1.13':
     dependencies:
@@ -4673,7 +4689,11 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
+<<<<<<< HEAD
   '@types/node@26.6.8':
+=======
+  '@types/node@26.6.9':
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
     dependencies:
       undici-types: 8.9.0
 
@@ -4707,7 +4727,11 @@ snapshots:
 
   '@types/webpack@5.28.5(postcss@8.5.33)(webpack-cli@7.3.1)':
     dependencies:
+<<<<<<< HEAD
       '@types/node': 26.6.8
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       tapable: 2.3.4
       webpack: 5.113.0(postcss@8.5.33)(webpack-cli@7.3.1)
     transitivePeerDependencies:
@@ -4731,7 +4755,11 @@ snapshots:
 
   '@types/ws@8.18.2':
     dependencies:
+<<<<<<< HEAD
       '@types/node': 26.6.8
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
 
   '@typescript-eslint/eslint-plugin@8.74.0(@typescript-eslint/parser@8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)':
     dependencies:
@@ -5812,7 +5840,11 @@ snapshots:
   engine.io@6.6.13:
     dependencies:
       '@types/cors': 2.8.19
+<<<<<<< HEAD
       '@types/node': 26.6.8
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       '@types/ws': 8.18.2
       accepts: 1.3.8
       cookie: 0.7.2
@@ -6719,7 +6751,11 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 26.6.8
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -8012,14 +8048,22 @@ snapshots:
     optionalDependencies:
       loader-utils: 1.4.2
 
+<<<<<<< HEAD
   ts-node@10.9.2(@types/node@26.6.8)(typescript@6.0.3):
+=======
+  ts-node@10.9.2(@types/node@26.6.9)(typescript@6.0.3):
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.14
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
+<<<<<<< HEAD
       '@types/node': 26.6.8
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       acorn: 8.19.0
       acorn-walk: 8.3.5
       arg: 4.1.3
